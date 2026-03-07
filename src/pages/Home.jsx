@@ -19,7 +19,7 @@ const Home = () => {
             </div>
           </div>
           <div className="hero-image">
-            <img src="/aset/jawa.png" alt="Baju Adat" />
+            <img src="/src/assets/images/hero.png" alt="Baju Adat" />
           </div>
         </div>
       </section>

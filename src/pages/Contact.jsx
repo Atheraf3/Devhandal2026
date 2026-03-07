@@ -19,7 +19,10 @@ const Contact = () => {
                 <i className="fa-solid fa-location-dot"></i>
                 <div>
                   <h3>Alamat</h3>
-                  <p>Perum. Pesona Mutiara Citayam Blok B No.1</p>
+                  <p>
+                    Perum Bermis, Jalan Rambutan Blok B No.127 RT03/RW05,
+                    Kutajaya, Pasar Kemis.
+                  </p>
                 </div>
               </div>
               <div className="info-item">
@@ -38,14 +41,13 @@ const Contact = () => {
               </div>
             </div>
             <div className="map-container">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.831885474665!2d106.7909!3d-6.415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMjQnNTQuMCJTIDEwNsKwNDcnMjcuMiJF!5e0!3m2!1sid!2sid!4v1620000000000!5m2!1sid!2sid" 
-                width="100%" 
-                height="450" 
-                style={{ border: 0, borderRadius: '12px' }} 
-                allowFullScreen="" 
-                loading="lazy"
-              ></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.918895626487!2d106.5552626075049!3d-6.170597626989809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff82f81a57cf%3A0x50812d172e20a85!2sSalon%20wanita%20%26%20Tata%20rias%20Perum%20Bermis!5e0!3m2!1sid!2sid!4v1772868103569!5m2!1sid!2sid"
+                width="100%"
+                height="450"
+                style={{ border: 0, borderRadius: "12px" }}
+                allowFullScreen=""
+                loading="lazy"></iframe>
             </div>
           </div>
         </div>

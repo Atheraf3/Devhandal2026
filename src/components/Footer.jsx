@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
           <h4 style={{ color: 'white', marginBottom: '20px' }}>Kontak Kami</h4>
           <p>WhatsApp: +62 858-9113-7077</p>
-          <p>Lokasi: Perum. Pesona Mutiara Citayam Blok B No.1</p>
+          <p>Lokasi: Perum Bermis, Jalan Rambutan Blok B No.127 RT03/RW05, Kutajaya, Pasar Kemis.</p>
         </div>
         <div>
           <h4 style={{ color: 'white', marginBottom: '20px' }}>Jam Operasional</h4>
@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="container" style={{ textAlign: 'center', marginTop: '40px', paddingTop: '20px', borderTop: '1px solid rgba(255,255,255,0.1)' }}>
-        <p>&copy; {new Date().getFullYear()} Salon & Sewa Baju Adat Kartinian. Semua Hak Cipta Dilindungi.</p>
+        <p>&copy; {new Date().getFullYear()} Salon & Sewa Baju Adat Kartinian.</p>
       </div>
     </footer>
   );

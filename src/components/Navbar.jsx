@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container nav-container">
         <Link to="/" className="nav-logo">
-          <img src="/aset/logo.png" alt="Salon Logo" className="logo-img" />
+          <img src="/src/assets/images/logoNew.png" alt="Salon Logo" className="logo-img" />
           <span>Salon & Sewa Baju</span>
         </Link>
         <ul className="nav-menu">
