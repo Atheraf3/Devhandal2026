@@ -2,25 +2,25 @@ export const gallery = [
     {
         id: 1,
         title: 'Baju Adat Jawa',
-        image: '/src/assets/images/jawa.png',
+        image: 'https://ik.imagekit.io/2xthk8ud4/Salon/jawa.png',
         category: 'Dewasa',
     },
     {
         id: 2,
         title: 'Baju Adat Kalimantan',
-        image: '/src/assets/images/kalimantan.png',
+        image: 'https://ik.imagekit.io/2xthk8ud4/Salon/kalimantan.png',
         category: 'Dewasa',
     },
     {
         id: 3,
         title: 'Baju Adat Sulawesi',
-        image: '/src/assets/images/sulawesi.png',
+        image: 'https://ik.imagekit.io/2xthk8ud4/Salon/sulawesi.png',
         category: 'Dewasa',
     },
     {
         id: 4,
         title: 'Baju Adat Sumatra',
-        image: '/src/assets/images/sumatra.png',
+        image: 'https://ik.imagekit.io/2xthk8ud4/Salon/Sumatra.png',
         category: 'Dewasa',
     },
 ];
