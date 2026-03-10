@@ -17,7 +17,7 @@ const Catalog = () => {
 
       <section className="gallery-section">
         <div className="container">
-          <h2 className="section-title">Galeri Real-Work</h2>
+          <h2 className="section-title">Galeri</h2>
           <div className="gallery-grid">
             {gallery.map(item => (
               <div key={item.id} className="gallery-item">

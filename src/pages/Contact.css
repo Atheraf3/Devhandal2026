@@ -37,3 +37,31 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 768px) {
+  .contact-info-card {
+    padding: 25px;
+  }
+  
+  .info-item {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-info-card {
+    padding: 20px;
+  }
+  
+  .info-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .info-item i {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+}

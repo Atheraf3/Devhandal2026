@@ -56,3 +56,18 @@
 .booking-btn:hover {
   opacity: 0.9;
 }
+
+@media (max-width: 768px) {
+  .service-card {
+    padding: 20px;
+  }
+  
+  .service-icon-container {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .service-card h3 {
+    font-size: 1.1rem;
+  }
+}

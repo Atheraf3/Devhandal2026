@@ -1,12 +1,13 @@
 import { services } from '../data/services';
 import ServiceCard from '../components/ServiceCard';
+import './Salon.css';
 
 const Salon = () => {
   const salonServices = services.filter(s => s.category === 'salon');
 
   return (
     <div className="salon-page">
-      <header className="page-header" style={{ backgroundColor: '#FF69B4' }}>
+      <header className="page-header salon-header">
         <div className="container">
           <h1>Layanan Salon Kecantikan</h1>
           <p>Manjakan diri Anda dengan perawatan profesional dari kami.</p>
@@ -26,10 +27,10 @@ const Salon = () => {
 
       <section className="booking-info">
         <div className="container text-center">
-          <div style={{ backgroundColor: 'white', padding: '60px', borderRadius: '20px', boxShadow: '0 10px 30px rgba(0,0,0,0.05)' }}>
+          <div className="booking-card">
             <h2 className="section-title">Ingin Booking Jadwal?</h2>
-            <p style={{ marginBottom: '30px', fontSize: '1.1rem' }}>Pastikan Anda mendapatkan slot waktu terbaik. Hubungi kami minimal 1 hari sebelumnya.</p>
-            <a href="https://wa.me/6285891137077" className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '10px' }}>
+            <p className="booking-desc">Pastikan Anda mendapatkan slot waktu terbaik. Hubungi kami minimal 1 hari sebelumnya.</p>
+            <a href="https://wa.me/6285891137077" className="btn btn-primary whatsapp-link">
               <i className="fa-brands fa-whatsapp"></i> Chat Sekarang
             </a>
           </div>

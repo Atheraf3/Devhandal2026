@@ -1,0 +1,38 @@
+.salon-header {
+  background-color: var(--secondary-color);
+}
+
+.booking-card {
+  background-color: var(--white);
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.booking-desc {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.whatsapp-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .booking-card {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .booking-card {
+    padding: 25px 15px;
+  }
+  
+  .booking-desc {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+}
