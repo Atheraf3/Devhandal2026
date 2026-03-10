@@ -19,7 +19,7 @@ const Home = () => {
             </div>
           </div>
           <div className="hero-image">
-            <img src="/src/assets/images/hero.png" alt="Baju Adat" />
+            <img src="https://ik.imagekit.io/2xthk8ud4/Salon/hero.png?updatedAt=1773005301504" alt="Hero Image" />
           </div>
         </div>
       </section>
