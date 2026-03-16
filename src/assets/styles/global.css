@@ -3,7 +3,29 @@
   --secondary-color: #FF69B4; /* Pink (for accents) */
   --bg-color: #FFFFF0; /* Putih Gading (Ivory) */
   --text-color: #2C3E50;
+  --text-muted: #666666;
   --white: #FFFFFF;
+  --footer-bg: #2C3E50;
+  --footer-text: #FFFFFF;
+  --border-color: #eee;
+  --card-bg: #FFFFFF;
+  --nav-bg: rgba(255, 255, 255, 0.95);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --primary-color: #9D64FF; /* Lighter Indigo for better contrast */
+  --secondary-color: #FFB6C1; /* Lighter Pink */
+  --bg-color: #121212; /* Dark background */
+  --text-color: #E0E0E0; /* Light text */
+  --text-muted: #AAAAAA;
+  --white: #1E1E1E; /* Dark surface/card color */
+  --footer-bg: #1A1A1A;
+  --footer-text: #E0E0E0;
+  --border-color: #333333;
+  --card-bg: #1E1E1E;
+  --nav-bg: rgba(30, 30, 30, 0.95);
+  --shadow-color: rgba(0, 0, 0, 0.5);
 }
 
 * {

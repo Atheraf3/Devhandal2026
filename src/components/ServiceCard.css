@@ -35,7 +35,7 @@
 
 .service-info {
   font-size: 0.9rem;
-  color: #666;
+  color: var(--text-muted);
   margin-bottom: 10px;
   display: flex;
   align-items: center;

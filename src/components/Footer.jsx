@@ -1,18 +1,18 @@
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: '#2C3E50', color: 'white', padding: '40px 0', marginTop: '60px' }}>
+    <footer style={{ backgroundColor: 'var(--footer-bg)', color: 'var(--footer-text)', padding: '40px 0', marginTop: '60px' }}>
       <div className="container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '40px' }}>
         <div>
-          <h3 style={{ color: 'white', marginBottom: '20px' }}>Salon & Sewa Baju Adat</h3>
+          <h3 style={{ color: 'var(--footer-text)', marginBottom: '20px' }}>Salon & Sewa Baju Adat</h3>
           <p>Tampil Cantik Paripurna & Anggun Berbudaya bersama kami.</p>
         </div>
         <div>
-          <h4 style={{ color: 'white', marginBottom: '20px' }}>Kontak Kami</h4>
+          <h4 style={{ color: 'var(--footer-text)', marginBottom: '20px' }}>Kontak Kami</h4>
           <p>WhatsApp: +62 858-9113-7077</p>
           <p>Lokasi: Perum Bermis, Jalan Rambutan Blok B No.127 RT03/RW05, Kutajaya, Pasar Kemis.</p>
         </div>
         <div>
-          <h4 style={{ color: 'white', marginBottom: '20px' }}>Jam Operasional</h4>
+          <h4 style={{ color: 'var(--footer-text)', marginBottom: '20px' }}>Jam Operasional</h4>
           <p>Setiap Hari: 08.00 - 20.00 WIB</p>
         </div>
       </div>
