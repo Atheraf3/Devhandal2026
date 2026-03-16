@@ -29,7 +29,7 @@ const ThemeToggle = () => {
       title={isDark ? "Mode Terang" : "Mode Gelap"}
     >
       {isDark ? (
-        <i className="fas fa-sun" style={{ color: '#FDB813' }}></i>
+        <i className="fas fa-sun" style={{ color: '#FFFFFF' }}></i>
       ) : (
         <i className="fas fa-moon" style={{ color: '#2C3E50' }}></i>
       )}
