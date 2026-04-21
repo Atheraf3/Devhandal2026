@@ -42,55 +42,7 @@ const Catalog = () => {
           </div>
         </div>
       </section>
-      
-      <section className="size-guide">
-        <div className="container">
-          <div className="guide-box">
-            <h2 className="section-title">Panduan Ukuran</h2>
-            <div className="guide-content">
-              <div className="guide-table-wrapper">
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Ukuran</th>
-                      <th>Lingkar Dada</th>
-                      <th>Lingkar Pinggang</th>
-                      <th>Saran Umur (Anak)</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>S</td>
-                      <td>80 cm</td>
-                      <td>70 cm</td>
-                      <td>3-5 Tahun</td>
-                    </tr>
-                    <tr>
-                      <td>M</td>
-                      <td>85 cm</td>
-                      <td>75 cm</td>
-                      <td>6-8 Tahun</td>
-                    </tr>
-                    <tr>
-                      <td>L</td>
-                      <td>90 cm</td>
-                      <td>80 cm</td>
-                      <td>9-11 Tahun</td>
-                    </tr>
-                    <tr>
-                      <td>XL</td>
-                      <td>95 cm</td>
-                      <td>85 cm</td>
-                      <td>12-14 Tahun</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <p className="guide-note">*Ukuran dapat bervariasi tergantung jenis baju adat. Hubungi kami untuk konsultasi lebih lanjut.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+  
     </div>
   );
 };

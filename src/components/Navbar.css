@@ -18,10 +18,22 @@
   align-items: center;
   gap: 10px;
   font-family: 'Playfair Display', serif;
-  font-size: 1.5rem;
+  font-size: 1.5rem; 
   font-weight: 700;
   color: var(--primary-color);
   max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .nav-logo {
+    font-size: 1.2rem; 
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-logo {
+    font-size: 1rem; 
+  }
 }
 
 .logo-text {
@@ -40,7 +52,7 @@
   80% {
     opacity: 0;
     max-width: 300px;
-    margin-left: 10px; /* original gap/margin if any */
+    margin-left: 10px; 
   }
   100% {
     opacity: 0;
@@ -97,7 +109,7 @@
 
   .nav-menu {
     position: absolute;
-    top: 70px; /* Adjust based on navbar height */
+    top: 70px; 
     left: -100%;
     flex-direction: column;
     background-color: var(--white);
